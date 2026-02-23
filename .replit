@@ -2,7 +2,7 @@ run = "npm start"
 entrypoint = "server/index.js"
 
 [nix]
-channel = "stable-23_11"
+channel = "stable-24_05"
 
 [env]
 PORT = "3000"
