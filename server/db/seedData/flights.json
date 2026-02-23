@@ -1,0 +1,41 @@
+[
+  { "airline_code": "UA", "flight_number": "UA100", "origin": "SFO", "destination": "JFK", "depart_time": "06:00", "arrive_time": "14:35", "equipment": "Boeing 777", "duration_mins": 335 },
+  { "airline_code": "UA", "flight_number": "UA114", "origin": "SFO", "destination": "JFK", "depart_time": "08:30", "arrive_time": "17:05", "equipment": "Boeing 777", "duration_mins": 335 },
+  { "airline_code": "AA", "flight_number": "AA178", "origin": "SFO", "destination": "JFK", "depart_time": "10:15", "arrive_time": "18:55", "equipment": "Airbus 321", "duration_mins": 340 },
+  { "airline_code": "DL", "flight_number": "DL490", "origin": "SFO", "destination": "JFK", "depart_time": "13:00", "arrive_time": "21:30", "equipment": "Boeing 767", "duration_mins": 330 },
+  { "airline_code": "B6", "flight_number": "B6415", "origin": "SFO", "destination": "JFK", "depart_time": "16:45", "arrive_time": "01:25", "equipment": "Airbus 321", "duration_mins": 340 },
+
+  { "airline_code": "UA", "flight_number": "UA201", "origin": "JFK", "destination": "SFO", "depart_time": "07:15", "arrive_time": "10:45", "equipment": "Boeing 777", "duration_mins": 390 },
+  { "airline_code": "AA", "flight_number": "AA283", "origin": "JFK", "destination": "SFO", "depart_time": "11:00", "arrive_time": "14:30", "equipment": "Airbus 321", "duration_mins": 390 },
+  { "airline_code": "DL", "flight_number": "DL505", "origin": "JFK", "destination": "SFO", "depart_time": "15:30", "arrive_time": "19:00", "equipment": "Boeing 767", "duration_mins": 390 },
+
+  { "airline_code": "UA", "flight_number": "UA310", "origin": "SFO", "destination": "LAX", "depart_time": "07:00", "arrive_time": "08:30", "equipment": "Airbus 320", "duration_mins": 90 },
+  { "airline_code": "AA", "flight_number": "AA450", "origin": "SFO", "destination": "LAX", "depart_time": "12:00", "arrive_time": "13:30", "equipment": "Boeing 737", "duration_mins": 90 },
+  { "airline_code": "WN", "flight_number": "WN622", "origin": "SFO", "destination": "LAX", "depart_time": "17:00", "arrive_time": "18:30", "equipment": "Boeing 737", "duration_mins": 90 },
+
+  { "airline_code": "UA", "flight_number": "UA520", "origin": "SFO", "destination": "ORD", "depart_time": "08:00", "arrive_time": "14:10", "equipment": "Boeing 737", "duration_mins": 270 },
+  { "airline_code": "AA", "flight_number": "AA670", "origin": "SFO", "destination": "ORD", "depart_time": "14:00", "arrive_time": "20:10", "equipment": "Boeing 737", "duration_mins": 270 },
+  { "airline_code": "UA", "flight_number": "UA530", "origin": "ORD", "destination": "SFO", "depart_time": "09:30", "arrive_time": "12:00", "equipment": "Boeing 737", "duration_mins": 270 },
+
+  { "airline_code": "DL", "flight_number": "DL700", "origin": "SFO", "destination": "ATL", "depart_time": "06:30", "arrive_time": "14:00", "equipment": "Boeing 757", "duration_mins": 290 },
+  { "airline_code": "DL", "flight_number": "DL710", "origin": "ATL", "destination": "SFO", "depart_time": "10:00", "arrive_time": "12:30", "equipment": "Boeing 757", "duration_mins": 310 },
+
+  { "airline_code": "AS", "flight_number": "AS330", "origin": "SFO", "destination": "SEA", "depart_time": "09:00", "arrive_time": "11:15", "equipment": "Boeing 737", "duration_mins": 135 },
+  { "airline_code": "AS", "flight_number": "AS335", "origin": "SEA", "destination": "SFO", "depart_time": "14:00", "arrive_time": "16:15", "equipment": "Boeing 737", "duration_mins": 135 },
+
+  { "airline_code": "B6", "flight_number": "B6800", "origin": "SFO", "destination": "BOS", "depart_time": "07:45", "arrive_time": "16:15", "equipment": "Airbus 321", "duration_mins": 330 },
+  { "airline_code": "B6", "flight_number": "B6805", "origin": "BOS", "destination": "SFO", "depart_time": "11:30", "arrive_time": "15:00", "equipment": "Airbus 321", "duration_mins": 390 },
+
+  { "airline_code": "UA", "flight_number": "UA900", "origin": "SFO", "destination": "DEN", "depart_time": "10:00", "arrive_time": "13:45", "equipment": "Boeing 737", "duration_mins": 165 },
+  { "airline_code": "NK", "flight_number": "NK440", "origin": "SFO", "destination": "DFW", "depart_time": "11:30", "arrive_time": "17:00", "equipment": "Airbus 320", "duration_mins": 210 },
+  { "airline_code": "AA", "flight_number": "AA550", "origin": "DFW", "destination": "MIA", "depart_time": "08:00", "arrive_time": "12:00", "equipment": "Boeing 737", "duration_mins": 180 },
+
+  { "airline_code": "UA", "flight_number": "UA150", "origin": "EWR", "destination": "SFO", "depart_time": "09:00", "arrive_time": "12:30", "equipment": "Boeing 777", "duration_mins": 390 },
+  { "airline_code": "WN", "flight_number": "WN880", "origin": "PHX", "destination": "SFO", "depart_time": "13:00", "arrive_time": "15:00", "equipment": "Boeing 737", "duration_mins": 150 },
+
+  { "airline_code": "UA", "flight_number": "UA116", "origin": "SFO", "destination": "JFK", "depart_time": "11:30", "arrive_time": "20:10", "equipment": "Boeing 757", "duration_mins": 340 },
+  { "airline_code": "DL", "flight_number": "DL492", "origin": "SFO", "destination": "JFK", "depart_time": "19:00", "arrive_time": "03:30", "equipment": "Boeing 767", "duration_mins": 330 },
+
+  { "airline_code": "AA", "flight_number": "AA180", "origin": "SFO", "destination": "JFK", "depart_time": "14:30", "arrive_time": "23:10", "equipment": "Airbus 321", "duration_mins": 340 },
+  { "airline_code": "UA", "flight_number": "UA102", "origin": "SFO", "destination": "JFK", "depart_time": "21:00", "arrive_time": "05:30", "equipment": "Boeing 777", "duration_mins": 330 }
+]

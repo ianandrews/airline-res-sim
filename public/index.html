@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SABRE GDS - Airline Reservation System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/terminal.css">
+</head>
+<body>
+  <div id="crt">
+    <div id="scanline"></div>
+    <div id="screen">
+      <div id="status-bar">
+        <span id="agent-info">AGENT: GTR001  DUTY: *  AREA: A</span>
+        <span id="clock"></span>
+      </div>
+      <div id="output"></div>
+      <div id="input-line">
+        <span id="prompt">&gt;</span>
+        <input type="text" id="command-input" autocomplete="off" autocapitalize="characters" spellcheck="false" autofocus>
+        <span id="cursor" class="blink">█</span>
+      </div>
+    </div>
+    <div id="scanlines-overlay"></div>
+  </div>
+
+  <script src="/js/effects.js"></script>
+  <script src="/js/history.js"></script>
+  <script src="/js/terminal.js"></script>
+</body>
+</html>

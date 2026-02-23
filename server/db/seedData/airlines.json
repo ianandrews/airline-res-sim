@@ -1,0 +1,9 @@
+[
+  { "code": "UA", "name": "UNITED AIRLINES" },
+  { "code": "AA", "name": "AMERICAN AIRLINES" },
+  { "code": "DL", "name": "DELTA AIR LINES" },
+  { "code": "B6", "name": "JETBLUE AIRWAYS" },
+  { "code": "AS", "name": "ALASKA AIRLINES" },
+  { "code": "WN", "name": "SOUTHWEST AIRLINES" },
+  { "code": "NK", "name": "SPIRIT AIRLINES" }
+]

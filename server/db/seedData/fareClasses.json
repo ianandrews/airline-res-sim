@@ -1,0 +1,17 @@
+{
+  "classes": ["Y", "B", "M", "H", "Q", "K"],
+  "defaults": {
+    "Y": { "total_seats": 20, "sold_seats": 2 },
+    "B": { "total_seats": 30, "sold_seats": 18 },
+    "M": { "total_seats": 40, "sold_seats": 32 },
+    "H": { "total_seats": 40, "sold_seats": 36 },
+    "Q": { "total_seats": 30, "sold_seats": 29 },
+    "K": { "total_seats": 20, "sold_seats": 20 }
+  },
+  "overrides": {
+    "UA100": { "Q": { "sold_seats": 30 }, "K": { "sold_seats": 20 } },
+    "UA114": { "Q": { "sold_seats": 30 }, "K": { "sold_seats": 20 }, "H": { "sold_seats": 40 } },
+    "DL490": { "M": { "sold_seats": 38 }, "Q": { "sold_seats": 30 }, "K": { "sold_seats": 20 } },
+    "B6415": { "Q": { "sold_seats": 30 }, "K": { "sold_seats": 20 } }
+  }
+}

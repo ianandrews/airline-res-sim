@@ -1,0 +1,16 @@
+{
+  "name": "airline-res-sim",
+  "version": "1.0.0",
+  "description": "Now You Know Why It Takes So Long - A GDS airline reservation simulator",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "setup": "node scripts/setup.js",
+    "reset": "node scripts/reset.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "uuid": "^9.0.0"
+  }
+}

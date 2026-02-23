@@ -1,0 +1,12 @@
+run = "npm start"
+entrypoint = "server/index.js"
+
+[nix]
+channel = "stable-23_11"
+
+[env]
+PORT = "3000"
+
+[[ports]]
+localPort = 3000
+externalPort = 80

@@ -1,0 +1,169 @@
+[
+  {
+    "record_locator": "ABCDEF",
+    "received_from": "SMITH/J",
+    "ticketing": "TAW25DEC/",
+    "passengers": [
+      { "seq_number": "1.1", "last_name": "SMITH", "first_name": "JOHN", "title": "MR" }
+    ],
+    "phones": [
+      { "phone_type": "H", "number": "415-555-0101" }
+    ],
+    "segments": [
+      { "flight_number": "DL490", "travel_date": "2026-03-25", "class_code": "Y", "status": "HK", "seg_number": 1 }
+    ]
+  },
+  {
+    "record_locator": "XYZKLM",
+    "received_from": "SMITH/J",
+    "ticketing": "TAW20DEC/",
+    "passengers": [
+      { "seq_number": "1.1", "last_name": "SMITH", "first_name": "JOHN", "title": "MR" },
+      { "seq_number": "1.2", "last_name": "SMITH", "first_name": "JANE", "title": "MRS" }
+    ],
+    "phones": [
+      { "phone_type": "H", "number": "212-555-0202" },
+      { "phone_type": "B", "number": "212-555-0203" }
+    ],
+    "segments": [
+      { "flight_number": "UA100", "travel_date": "2026-03-20", "class_code": "M", "status": "HK", "seg_number": 1 },
+      { "flight_number": "UA201", "travel_date": "2026-03-27", "class_code": "M", "status": "HK", "seg_number": 2 }
+    ]
+  },
+  {
+    "record_locator": "JKLPQR",
+    "received_from": "SMITH/J",
+    "ticketing": "TAW15DEC/",
+    "passengers": [
+      { "seq_number": "1.1", "last_name": "SMITH", "first_name": "JOHN", "title": "MR" }
+    ],
+    "phones": [
+      { "phone_type": "M", "number": "650-555-0303" }
+    ],
+    "segments": [
+      { "flight_number": "AS330", "travel_date": "2026-04-10", "class_code": "Q", "status": "HK", "seg_number": 1 }
+    ]
+  },
+  {
+    "record_locator": "QWERTY",
+    "received_from": "JOHNSON/M",
+    "ticketing": "TAW01JAN/",
+    "passengers": [
+      { "seq_number": "1.1", "last_name": "JOHNSON", "first_name": "MARY", "title": "MS" }
+    ],
+    "phones": [
+      { "phone_type": "H", "number": "310-555-0404" }
+    ],
+    "segments": [
+      { "flight_number": "AA178", "travel_date": "2026-03-15", "class_code": "B", "status": "HK", "seg_number": 1 }
+    ]
+  },
+  {
+    "record_locator": "FGHIJK",
+    "received_from": "GARCIA/R",
+    "ticketing": "TAW10JAN/",
+    "passengers": [
+      { "seq_number": "1.1", "last_name": "GARCIA", "first_name": "ROBERT", "title": "MR" },
+      { "seq_number": "1.2", "last_name": "GARCIA", "first_name": "LINDA", "title": "MRS" },
+      { "seq_number": "1.3", "last_name": "GARCIA", "first_name": "EMILY", "title": "MISS" }
+    ],
+    "phones": [
+      { "phone_type": "H", "number": "773-555-0505" },
+      { "phone_type": "M", "number": "773-555-0506" }
+    ],
+    "segments": [
+      { "flight_number": "UA520", "travel_date": "2026-04-05", "class_code": "H", "status": "HK", "seg_number": 1 },
+      { "flight_number": "UA530", "travel_date": "2026-04-12", "class_code": "H", "status": "HK", "seg_number": 2 }
+    ]
+  },
+  {
+    "record_locator": "LMNOPQ",
+    "received_from": "CHEN/W",
+    "ticketing": "TAW05FEB/",
+    "passengers": [
+      { "seq_number": "1.1", "last_name": "CHEN", "first_name": "WEI", "title": "MR" }
+    ],
+    "phones": [
+      { "phone_type": "B", "number": "408-555-0607" }
+    ],
+    "segments": [
+      { "flight_number": "B6800", "travel_date": "2026-05-01", "class_code": "Y", "status": "HK", "seg_number": 1 },
+      { "flight_number": "B6805", "travel_date": "2026-05-08", "class_code": "Y", "status": "HK", "seg_number": 2 }
+    ]
+  },
+  {
+    "record_locator": "RSTUVW",
+    "received_from": "PATEL/A",
+    "ticketing": "TAW15FEB/",
+    "passengers": [
+      { "seq_number": "1.1", "last_name": "PATEL", "first_name": "ANITA", "title": "MRS" },
+      { "seq_number": "1.2", "last_name": "PATEL", "first_name": "RAJ", "title": "MR" }
+    ],
+    "phones": [
+      { "phone_type": "H", "number": "602-555-0708" }
+    ],
+    "segments": [
+      { "flight_number": "WN880", "travel_date": "2026-03-30", "class_code": "Y", "status": "HK", "seg_number": 1 }
+    ]
+  },
+  {
+    "record_locator": "MNBVCX",
+    "received_from": "WILLIAMS/D",
+    "ticketing": "TAW20FEB/",
+    "passengers": [
+      { "seq_number": "1.1", "last_name": "WILLIAMS", "first_name": "DAVID", "title": "MR" }
+    ],
+    "phones": [
+      { "phone_type": "M", "number": "305-555-0809" }
+    ],
+    "segments": [
+      { "flight_number": "DL700", "travel_date": "2026-04-20", "class_code": "M", "status": "HK", "seg_number": 1 },
+      { "flight_number": "DL710", "travel_date": "2026-04-27", "class_code": "M", "status": "HK", "seg_number": 2 }
+    ]
+  },
+  {
+    "record_locator": "POIUYT",
+    "received_from": "SMITH/J",
+    "ticketing": "TAW01MAR/",
+    "passengers": [
+      { "seq_number": "1.1", "last_name": "SMITH", "first_name": "JENNIFER", "title": "MS" }
+    ],
+    "phones": [
+      { "phone_type": "H", "number": "415-555-0910" }
+    ],
+    "segments": [
+      { "flight_number": "UA310", "travel_date": "2026-03-18", "class_code": "Q", "status": "HK", "seg_number": 1 }
+    ]
+  },
+  {
+    "record_locator": "ZXCVBN",
+    "received_from": "KIM/S",
+    "ticketing": "TAW10MAR/",
+    "passengers": [
+      { "seq_number": "1.1", "last_name": "KIM", "first_name": "SARAH", "title": "MS" },
+      { "seq_number": "1.2", "last_name": "KIM", "first_name": "DANIEL", "title": "MR" }
+    ],
+    "phones": [
+      { "phone_type": "H", "number": "206-555-1011" },
+      { "phone_type": "M", "number": "206-555-1012" }
+    ],
+    "segments": [
+      { "flight_number": "AS330", "travel_date": "2026-05-15", "class_code": "B", "status": "HK", "seg_number": 1 },
+      { "flight_number": "AS335", "travel_date": "2026-05-22", "class_code": "B", "status": "HK", "seg_number": 2 }
+    ]
+  },
+  {
+    "record_locator": "GHIJKL",
+    "received_from": "SMITH/J",
+    "ticketing": "TAW15MAR/",
+    "passengers": [
+      { "seq_number": "1.1", "last_name": "SMITH", "first_name": "JOHN", "title": "DR" }
+    ],
+    "phones": [
+      { "phone_type": "B", "number": "617-555-1113" }
+    ],
+    "segments": [
+      { "flight_number": "B6415", "travel_date": "2026-04-01", "class_code": "Y", "status": "HK", "seg_number": 1 }
+    ]
+  }
+]

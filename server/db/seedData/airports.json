@@ -1,0 +1,14 @@
+[
+  { "code": "SFO", "name": "SAN FRANCISCO INTL", "city": "SAN FRANCISCO" },
+  { "code": "JFK", "name": "JOHN F KENNEDY INTL", "city": "NEW YORK" },
+  { "code": "LAX", "name": "LOS ANGELES INTL", "city": "LOS ANGELES" },
+  { "code": "ORD", "name": "CHICAGO OHARE INTL", "city": "CHICAGO" },
+  { "code": "ATL", "name": "HARTSFIELD-JACKSON INTL", "city": "ATLANTA" },
+  { "code": "DFW", "name": "DALLAS/FORT WORTH INTL", "city": "DALLAS" },
+  { "code": "SEA", "name": "SEATTLE-TACOMA INTL", "city": "SEATTLE" },
+  { "code": "BOS", "name": "BOSTON LOGAN INTL", "city": "BOSTON" },
+  { "code": "DEN", "name": "DENVER INTL", "city": "DENVER" },
+  { "code": "MIA", "name": "MIAMI INTL", "city": "MIAMI" },
+  { "code": "EWR", "name": "NEWARK LIBERTY INTL", "city": "NEWARK" },
+  { "code": "PHX", "name": "PHOENIX SKY HARBOR", "city": "PHOENIX" }
+]

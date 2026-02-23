@@ -1,0 +1,243 @@
+/* === CRT GREEN SCREEN TERMINAL === */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: #33FF33;
+  --green-dim: #1a8c1a;
+  --green-glow: rgba(51, 255, 51, 0.4);
+  --bg: #0a0a0a;
+  --amber: #FFB000;
+}
+
+body {
+  background: #000;
+  cursor: none;
+  overflow: hidden;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* CRT container */
+#crt {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--bg);
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+/* Moving scanline */
+#scanline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: rgba(51, 255, 51, 0.1);
+  z-index: 100;
+  pointer-events: none;
+  animation: scanline-move 8s linear infinite;
+}
+
+@keyframes scanline-move {
+  0% { top: -3px; }
+  100% { top: 100%; }
+}
+
+/* Scanlines overlay */
+#scanlines-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.15) 0px,
+    rgba(0, 0, 0, 0.15) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  z-index: 99;
+  pointer-events: none;
+}
+
+/* Screen flicker */
+#screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  animation: flicker 0.08s infinite alternate;
+}
+
+@keyframes flicker {
+  0% { opacity: 0.97; }
+  100% { opacity: 1; }
+}
+
+/* Status bar */
+#status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--green-dim);
+  margin-bottom: 10px;
+  color: var(--amber);
+  font-size: 13px;
+  text-shadow: 0 0 8px rgba(255, 176, 0, 0.5);
+  flex-shrink: 0;
+}
+
+/* Output area */
+#output {
+  flex: 1;
+  overflow-y: auto;
+  color: var(--green);
+  font-size: 14px;
+  line-height: 1.5;
+  text-shadow: 0 0 5px var(--green-glow);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding-bottom: 10px;
+  scrollbar-width: none;
+}
+
+#output::-webkit-scrollbar {
+  display: none;
+}
+
+/* Individual output entries */
+.output-entry {
+  margin-bottom: 2px;
+}
+
+.output-command {
+  color: var(--amber);
+  text-shadow: 0 0 5px rgba(255, 176, 0, 0.4);
+}
+
+.output-response {
+  color: var(--green);
+}
+
+.output-error {
+  color: #FF4444;
+  text-shadow: 0 0 5px rgba(255, 68, 68, 0.4);
+}
+
+.output-system {
+  color: var(--green-dim);
+}
+
+.output-stats {
+  color: var(--amber);
+  text-shadow: 0 0 8px rgba(255, 176, 0, 0.5);
+}
+
+/* Input line */
+#input-line {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  border-top: 1px solid var(--green-dim);
+  flex-shrink: 0;
+}
+
+#prompt {
+  color: var(--amber);
+  font-size: 14px;
+  margin-right: 8px;
+  text-shadow: 0 0 8px rgba(255, 176, 0, 0.5);
+}
+
+#command-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--green);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  text-shadow: 0 0 5px var(--green-glow);
+  caret-color: transparent;
+  text-transform: uppercase;
+  flex: 1;
+  cursor: none;
+}
+
+#cursor {
+  color: var(--green);
+  font-size: 14px;
+  text-shadow: 0 0 8px var(--green-glow);
+}
+
+#cursor.blink {
+  animation: cursor-blink 1s step-end infinite;
+}
+
+@keyframes cursor-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* Processing indicator */
+.processing {
+  color: var(--green-dim);
+  animation: processing-blink 0.5s step-end infinite;
+}
+
+@keyframes processing-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0.3; }
+}
+
+/* CRT screen edge vignette */
+#crt::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 60%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  z-index: 98;
+  pointer-events: none;
+}
+
+/* Selection color */
+::selection {
+  background: var(--green);
+  color: var(--bg);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #screen {
+    padding: 10px 15px;
+  }
+
+  #output, #command-input, #prompt, #cursor {
+    font-size: 12px;
+  }
+
+  #status-bar {
+    font-size: 11px;
+  }
+
+  body {
+    cursor: auto;
+  }
+}
